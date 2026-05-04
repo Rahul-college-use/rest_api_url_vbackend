@@ -2,6 +2,7 @@ const expreess = require('express');
 const app = expreess();
 const cors =require('cors');
 const connectdb = require('./config/db')
+connectdb();
 
 const dns = require('dns');
 dns.setServers([
